@@ -1,0 +1,172 @@
+Microsoft Windows [Version 10.0.22631.5624]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\LENOVO>cd downloads
+
+C:\Users\LENOVO\Downloads>md 0S-l2
+
+C:\Users\LENOVO\Downloads>cd 0S-l2
+
+C:\Users\LENOVO\Downloads\0S-l2>md Samsung
+
+C:\Users\LENOVO\Downloads\0S-l2>md Apple
+
+C:\Users\LENOVO\Downloads\0S-l2>md Sony
+
+C:\Users\LENOVO\Downloads\0S-l2>md "3 a.Samsung Book.pdf"
+
+C:\Users\LENOVO\Downloads\0S-l2>md "3 b.Apple MacBook Air.txt"
+
+C:\Users\LENOVO\Downloads\0S-l2>md "3 c.Sony alpha.docx"
+
+C:\Users\LENOVO\Downloads\0S-l2>md user_1.txt
+
+C:\Users\LENOVO\Downloads\0S-l2>notepad user_1.txt
+
+C:\Users\LENOVO\Downloads\0S-l2>copy user_1.txt user_2.txt
+user_1.txt\A.txt
+        1 file(s) copied.
+
+C:\Users\LENOVO\Downloads\0S-l2>copy user_1.txt user_3.txt
+user_1.txt\A.txt
+        1 file(s) copied.
+
+C:\Users\LENOVO\Downloads\0S-l2>copy user_1.txt user_4.txt
+user_1.txt\A.txt
+        1 file(s) copied.
+
+C:\Users\LENOVO\Downloads\0S-l2>notepad user_2.txt
+
+C:\Users\LENOVO\Downloads\0S-l2>notepad user_3.txt
+
+C:\Users\LENOVO\Downloads\0S-l2>notepad user_4.txt
+
+C:\Users\LENOVO\Downloads\0S-l2>move user_1.txt Samsung
+        1 dir(s) moved.
+
+C:\Users\LENOVO\Downloads\0S-l2>move user_2.txt Apple
+        1 file(s) moved.
+
+C:\Users\LENOVO\Downloads\0S-l2>move user_3.txt Sony
+        1 file(s) moved.
+
+C:\Users\LENOVO\Downloads\0S-l2>cd Samsung
+
+C:\Users\LENOVO\Downloads\0S-l2\Samsung>md Users
+
+C:\Users\LENOVO\Downloads\0S-l2\Samsung>md Brand Specs
+
+C:\Users\LENOVO\Downloads\0S-l2\Samsung>cd..
+
+C:\Users\LENOVO\Downloads\0S-l2>cd Apple
+
+C:\Users\LENOVO\Downloads\0S-l2\Apple>md Users
+
+C:\Users\LENOVO\Downloads\0S-l2\Apple>md Brand Specs
+
+C:\Users\LENOVO\Downloads\0S-l2\Apple>cd..
+
+C:\Users\LENOVO\Downloads\0S-l2>cd Sony
+
+C:\Users\LENOVO\Downloads\0S-l2\Sony>md Users
+
+C:\Users\LENOVO\Downloads\0S-l2\Sony>md Brand Specs
+
+C:\Users\LENOVO\Downloads\0S-l2\Sony>move "3 a.Samsung Book.pdf" "Samsung\"Brand Specs"\"
+The syntax of the command is incorrect.
+
+C:\Users\LENOVO\Downloads\0S-l2\Sony>move "3 a.Samsung Book.pdf" Samsung
+The system cannot find the file specified.
+
+C:\Users\LENOVO\Downloads\0S-l2\Sony>cd..
+
+C:\Users\LENOVO\Downloads\0S-l2>move "3 a.Samsung Book.pdf" "Samsung\"Brand Specs"\"
+The syntax of the command is incorrect.
+
+C:\Users\LENOVO\Downloads\0S-l2>move "3 a.Samsung Book.pdf" Samsung
+        1 dir(s) moved.
+
+C:\Users\LENOVO\Downloads\0S-l2>move "3 b.Apple MacBook Air.txt" Apple
+        1 dir(s) moved.
+
+C:\Users\LENOVO\Downloads\0S-l2>move "3 c.Sony alpha.docx" Sony
+        1 dir(s) moved.
+
+C:\Users\LENOVO\Downloads\0S-l2>cd Samsung
+
+C:\Users\LENOVO\Downloads\0S-l2\Samsung>move "3 a.Samsung Book.pdf" Brand Specs
+The syntax of the command is incorrect.
+
+C:\Users\LENOVO\Downloads\0S-l2\Samsung>move a.Samsung Book.pdf  Brand Specs
+The syntax of the command is incorrect.
+
+C:\Users\LENOVO\Downloads\0S-l2\Samsung>cd..
+
+C:\Users\LENOVO\Downloads\0S-l2>dir /s S*
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is 64B9-B408
+
+ Directory of C:\Users\LENOVO\Downloads\0S-l2
+
+11/09/2025  11:27 am    <DIR>          Samsung
+11/09/2025  11:28 am    <DIR>          Sony
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\LENOVO\Downloads\0S-l2\Apple
+
+11/09/2025  11:24 am    <DIR>          Specs
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\LENOVO\Downloads\0S-l2\Samsung
+
+11/09/2025  11:23 am    <DIR>          Specs
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\LENOVO\Downloads\0S-l2\Sony
+
+11/09/2025  11:24 am    <DIR>          Specs
+               0 File(s)              0 bytes
+
+     Total Files Listed:
+               0 File(s)              0 bytes
+               5 Dir(s)   7,773,515,776 bytes free
+
+C:\Users\LENOVO\Downloads\0S-l2>dir /s *.txt
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is 64B9-B408
+
+ Directory of C:\Users\LENOVO\Downloads\0S-l2
+
+11/09/2025  11:22 am               236 user_4.txt
+               1 File(s)            236 bytes
+
+ Directory of C:\Users\LENOVO\Downloads\0S-l2\Apple
+
+11/09/2025  11:12 am    <DIR>          3 b.Apple MacBook Air.txt
+11/09/2025  11:20 am               236 user_2.txt
+               1 File(s)            236 bytes
+
+ Directory of C:\Users\LENOVO\Downloads\0S-l2\Samsung
+
+11/09/2025  11:18 am    <DIR>          user_1.txt
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\LENOVO\Downloads\0S-l2\Samsung\user_1.txt
+
+11/09/2025  11:18 am               243 A.txt
+               1 File(s)            243 bytes
+
+ Directory of C:\Users\LENOVO\Downloads\0S-l2\Sony
+
+11/09/2025  11:21 am               234 user_3.txt
+               1 File(s)            234 bytes
+
+     Total Files Listed:
+               4 File(s)            949 bytes
+               2 Dir(s)   7,773,515,776 bytes free
+
+C:\Users\LENOVO\Downloads\0S-l2>USING "IF" EXIST Samsung.pdf, echo "Deleting Now Bhie" and delete, else creates a folder Fold 7 and create a samsung.pdf Inside Fold 7 File containing "Samsung Galaxy Fold 7"
+'USING' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\LENOVO\Downloads\0S-l2>
